@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web CV Sample - Dark Mode</title>
+    <!-- Bootstrap CSS only -->
+    <link rel="stylesheet" href="https://bootswatch.com/5/darkly/bootstrap.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #222;
+            color: #eee;
+        }
+        .card {
+            background-color: #333;
+            border-color: #444;
+        }
+        .list-group-item {
+            background-color: #444;
+            color: #eee;
+            border-color: #555;
+        }
+        .nav-link {
+            color: #ccc;
+        }
+        .nav-link.active {
+            background-color: #375a7f !important;
+            color: white !important;
+        }
+        .btn-primary {
+            background-color: #375a7f;
+            border-color: #375a7f;
+        }
+        .btn-primary:hover {
+            background-color: #2b4764;
+            border-color: #2b4764;
+        }
+        .text-muted {
+            color: #aaa !important;
+        }
+        .border-bottom {
+            border-color: #444 !important;
+        }
+        .btn-blue {
+            background-color: #3b5998;
+            color: white;
+        }
+        .btn-blue:hover {
+            background-color: #2d4373;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Profile Card -->
+    <div class="d-flex justify-content-center mt-4">
+        <div class="card" style="width: 18rem;">
+            <div class="mt-3 d-flex justify-content-center">
+                <img style="width: 100px;"
+                src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-1/457280264_2972557516230307_4362235419769218250_n.jpg?stp=c0.109.1488.1488a_dst-jpg_s200x200_tt6&_nc_cat=105&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeHmz0_bp0wVQ275G1zSd2-qr65sal9dcKivrmxqX11wqI-jvGaXGrlY6j1TaX7-tHzsDFJpf10tgU35FDryGZ9e&_nc_ohc=BxBkpo5bYhIQ7kNvwHDl35P&_nc_oc=AdmBW12xLYMfijvBo8uC0CXvMtRatVOonyP9ltiitt6caUnyjJg70SKueV3cHdUy-tg&_nc_zt=24&_nc_ht=scontent.fdvo2-2.fna&_nc_gid=y8aHPp_0pmdh_gvXL_AJjg&oh=00_AfFqGepF2kXax-I5r_mneXznc_cfNvtryMLEVgMlxjjw-Q&oe=68043DC3" 
+                alt="..." class="rounded-circle img-thumbnail bg-dark border-secondary">
+            </div>
+            <br/>
+            <div class="card-body text-center">
+                <h5 class="card-title">Lawrence Lanaja</h5>
+                <p class="card-text">BSIT 2025</p>
+                <a href="https://github.com/cljlanaja" class="btn btn-dark btn-sm" target="_blank">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.facebook.com/owen.janala/" class="btn btn-blue btn-sm" target="_blank">
+                    <i class="bi bi-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap Tabs (No JavaScript or custom CSS needed) -->
+    <div class="container mt-4">
+        <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-bg-tab" data-bs-toggle="pill" data-bs-target="#pills-bg" type="button" role="tab" aria-controls="pills-bg" aria-selected="true">Background</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-proj-tab" data-bs-toggle="pill" data-bs-target="#pills-proj" type="button" role="tab" aria-controls="pills-proj" aria-selected="false">Projects</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-research-tab" data-bs-toggle="pill" data-bs-target="#pills-research" type="button" role="tab" aria-controls="pills-research" aria-selected="false">Capstone</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <!-- Background Tab -->
+            <div class="tab-pane fade show active" id="pills-bg" role="tabpanel" aria-labelledby="pills-bg-tab">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title border-bottom pb-2">Education</h2>
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">BS Information Technology</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Ateneo de Davao University</h6>
+                                <p class="card-text">2022 - 2025</p>
+                            </div>
+                        </div>
+                        
+                        <h2 class="card-title border-bottom pb-2 mt-4">Skills</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-group">
+                                    <li class="list-group-item">HTML/CSS</li>
+                                    <li class="list-group-item">JavaScript</li>
+                                    <li class="list-group-item">Bootstrap</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-group">
+                                    <li class="list-group-item">GitHub</li>
+                                    <li class="list-group-item">Video Editing</li>
+                                    <li class="list-group-item">Photography</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <h2 class="card-title border-bottom pb-2 mt-4">Affiliations</h2>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Living Temple Foursquare Gospel Church - Multimedia Team</h5>
+                                <p class="card-text">Member (2023-Present)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Projects Tab -->
+            <div class="tab-pane fade" id="pills-proj" role="tabpanel" aria-labelledby="pills-proj-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title border-bottom pb-2">Projects</h2>
+                        <div class="row">
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Django To-do list</h5>
+                                        <p class="card-text">Pokemon-themed Django To-do list</p>
+                                        <a href="#" class="btn btn-primary">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Wings on Wheels Management System</h5>
+                                        <p class="card-text">A Mobile Management System (Orderding, POS, Inventory, Employee, Financial, Booking) for Wings on Wheels Food Truck Business</p>
+                                        <a href="#" class="btn btn-primary">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">AppDev UniVents Prototype</h5>
+                                        <p class="card-text">A Mobile/Web Prototype for AdDU's UniVents App</p>
+                                        <a href="#" class="btn btn-primary">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Research Tab -->
+            <div class="tab-pane fade" id="pills-research" role="tabpanel" aria-labelledby="pills-research-tab">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title border-bottom pb-2">Capstone Projects</h2>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Women's Safety App + IoT Device</h5>
+                                <p class="card-text">IoT Panic Button with GPS Locator that communicates to Mobile App via Supabase to send SOS message to Authorities</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS Bundle (required for the pill/tab functionality) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
